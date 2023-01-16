@@ -1,0 +1,34 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  /* background-color: rgb(19, 19, 19); */
+  background-color: skyblue;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 35px;
+  
+}
+
+.links {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 35px;
+  color: black;
+  font-weight: 700;
+  border: 2px solid grey;
+  border-radius: 0 5px 5px 0;
+
+
+}
+
+.links a:hover{
+  background-color: white;
+  border: 1px solid;
+}
